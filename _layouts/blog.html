@@ -1,0 +1,21 @@
+---
+title: blog
+layout: default
+---
+
+{{ content }}
+<div class="all-post">
+  {% for post in site.posts reversed %}
+    <h2>
+      <a href="{{post.url}}">
+        {{ post.title }}    
+      </a> - 
+      <span>
+        {{ post.date | date: "%b %d, %Y - %a" }}
+      </span>
+    </h2>
+    <div class="content">
+      hello world
+    </div>
+  {% endfor %}
+</div>
