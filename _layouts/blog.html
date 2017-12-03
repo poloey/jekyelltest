@@ -7,7 +7,7 @@ layout: default
 <div class="all-post">
   {% for post in site.posts reversed %}
     <h2>
-      <a href="{{post.url}}">
+      <a href="{{site.baseurl}}{{post.url}}">
         {{ post.title }}    
       </a> - 
       <span>
