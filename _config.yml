@@ -1,5 +1,6 @@
 name: My jekyell website
 title: Hello world
 permalink: /:title
+baseurl: https://poloey.github.io/jekyelltest/
 sass:
   style: compressed
