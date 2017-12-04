@@ -2,10 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ page.title }} | {{site.title}}</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ "css/style.css" | relative_url }}">
 </head>
 <body>
-  {{ content }}
+  <header>
+    <div class="container">
+      <nav>
+        <div class="left_nav">
+          <p><a class="title" href="/">{{ site.title }}</a></p>
+          <p class="subtitle">Life time references for {{site.title}} batch</p>
+        </div>
+        <div class="right_nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Project</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="content">
+      <h2 class="section-title">All classes</h2>
+      <h2 class="subtitle"> All classes of Hypertag batch 43 chronologically listed here. </h2>
+      <ul class="class-list">
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+        <li><a href="#">class 07, September 17, 2017 Sunday</a></li>
+      </ul>
+    </div>
+  </div>
+  {{content}}
+  <footer>
+    <div class="container">
+      <div class="footer-first">
+        <p><a href="/">{{ site.title }}</a> is maintained by Shibu deb polo.</p>
+        <ul>
+
+          <li>
+            <a href="{{ site.github_link }}">
+              <i class="fa fa-github" aria-hidden="true"></i>
+              {{site.github}}
+            </a>
+          </li>
+
+          <li>
+            <a href="{{ site.facebook_link }}">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              {{site.facebook}}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-text">{{ site.footerText }}</p>
+    </div>
+  </footer>
 </body>
 </html>

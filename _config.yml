@@ -1,5 +1,10 @@
-name: My jekyell website
-title: Hello world
+name: H-43
+title: H-43
 permalink: /:title
+github_link: http://github.com/poloey
+facebook_link: http://facebook.com
+github: Polodev
+facebook: H-43 group
+footerText: Hosted on Github Page. This Website will be references for LICT H-43 batch for life time. Since Github page will never down. Thanks to opensource technology. Hope this attempt make work flow easier for All the students of H-43 batch. Added daily documentation and class file in this website
 sass:
   style: compressed
